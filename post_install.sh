@@ -8,6 +8,7 @@ RED='\033[00;31m'
 GREEN='\033[00;32m'
 YELLOW='\033[00;33m'
 
+echo "Hello Paul, I am watching you" 
 
 if [[ $EUID -ne 0 ]]; then
    	echo "This script must be run as root" 
